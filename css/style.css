@@ -34,6 +34,20 @@ main{
   max-width: calc(100%/3);
   padding-right: 20px;
   padding-top: 40px;
+  position: relative;
+}
+
+/* FAVOURITE BUTTON STYLE */
+.favourite{
+  font-size: 30px;
+  background-color: white;
+  min-width: 50px;
+  min-height: 50px;
+  position: absolute;
+  top: 12%;
+  right: 5%;
+  text-align: center;
+  line-height: 50px;
 }
 
 /* CARD  AND DESCRIPTION PROPERTIES */
