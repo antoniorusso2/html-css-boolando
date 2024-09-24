@@ -74,7 +74,9 @@ header{
 .navbar-category>a, .account-management>a{
   padding-right: 10px;
 }
-
+.account-management{
+  text-align: right;
+}
 /* LOGO - NAVBAR*/
 .boolean-logo{
   flex-shrink: 0;
