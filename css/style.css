@@ -5,6 +5,27 @@
   padding: 0;
 }
 
+img{
+  height: 500px;
+  aspect-ratio: 1:1;
+}
+
+/* CONTAINER CENTERING */
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* FLEXBOX */
+.row{
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
 /* DEBUG */
 .debug .navbar{
   width: 100%;
