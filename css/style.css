@@ -6,8 +6,14 @@
 }
 
 img{
-  height: 500px;
+  max-height: 100%;
+  max-width: 100%;
   aspect-ratio: 1:1;
+}
+
+/* HEADER - MAIN - FOOTER PADDING AND MARGIN */
+main{
+  margin-top: 40px;
 }
 
 /* CONTAINER CENTERING */
@@ -24,7 +30,11 @@ img{
   flex-wrap: wrap;
 }
 
-
+.col{
+  max-width: calc(100%/3);
+  padding-right: 20px;
+  padding-top: 40px;
+}
 
 /* DEBUG */
 .debug .navbar{
