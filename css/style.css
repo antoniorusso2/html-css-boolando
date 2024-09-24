@@ -2,11 +2,17 @@
 html{
   font-family: "Montserrat", sans-serif;
 }
+
 /* RESET RULES */
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: currentColor;
 }
 
 .card img{
@@ -26,7 +32,16 @@ main{
   margin: 0 auto;
 }
 
-/* FLEXBOX */
+/* FLEXBOX NAVBAR AND CENTERING */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 10px auto;
+}
+
+/* FLEXBOX  - ROWs */
+
 .row{
   max-width: 100%;
   display: flex;
@@ -34,6 +49,7 @@ main{
   flex-wrap: wrap;
 }
 
+/* COLUMNS */
 .col{
   max-width: calc(100%/3);
   padding-right: 20px;
@@ -72,16 +88,17 @@ main{
   background-color: red;
 }
 
-/* CARD  AND DESCRIPTION PROPERTIES */
-.card{
-  position: relative;
-}
 
+/* CARD FLEXBOX */
 .card-description{
   display: flex;
   flex-direction: column;
 }
 
+/* CARD  AND DESCRIPTION PROPERTIES */
+.card{
+  position: relative;
+}
 .brand{
   font-size: 13px;
 }
