@@ -4,3 +4,11 @@
   margin: 0;
   padding: 0;
 }
+
+/* DEBUG */
+.debug .navbar{
+  width: 100%;
+  min-height: 100px;
+  background-color: aqua;
+  border: 1px solid black;
+}
