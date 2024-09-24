@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+html{
+  font-family: "Montserrat", sans-serif;
+}
 /* RESET RULES */
 *{
   box-sizing: border-box;
@@ -13,7 +17,7 @@
 
 /* HEADER - MAIN - FOOTER PADDING AND MARGIN */
 main{
-  margin-top: 40px;
+  margin: 40px 0;
 }
 
 /* CONTAINER CENTERING */
@@ -33,7 +37,7 @@ main{
 .col{
   max-width: calc(100%/3);
   padding-right: 20px;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 /* FAVOURITE HEART STYLE */
@@ -78,8 +82,24 @@ main{
   flex-direction: column;
 }
 
+.brand{
+  font-size: 13px;
+}
+.product{
+  font-weight: 600;
+}
+
+.final-price{
+  font-size: 14px;
+  color: rgb(255, 0, 0);
+}
+.line-through{
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
 /* DEBUG */
-.debug .navbar{
+.debug .navbar, .debug.page-footer{
   width: 100%;
   min-height: 100px;
   background-color: aqua;
