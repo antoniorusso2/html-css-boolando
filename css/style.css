@@ -36,6 +36,12 @@ main{
   padding-top: 40px;
 }
 
+/* CARD  AND DESCRIPTION PROPERTIES */
+.card-description{
+  display: flex;
+  flex-direction: column;
+}
+
 /* DEBUG */
 .debug .navbar{
   width: 100%;
