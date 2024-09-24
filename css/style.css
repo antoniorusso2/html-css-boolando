@@ -21,9 +21,14 @@ a{
   aspect-ratio: 1/1;
 }
 
-/* HEADER - MAIN - FOOTER PADDING AND MARGIN */
+/* HEADER - MAIN - FOOTER RULES */
 main{
   margin: 40px 0;
+}
+
+header{
+  background-color: #ff6900;
+  padding: 10px 0;
 }
 
 /* CONTAINER CENTERING */
@@ -32,22 +37,62 @@ main{
   margin: 0 auto;
 }
 
+/* --------------------------------------------- ALL FLEXBOX HERE ---------------------------------------------*/
 /* FLEXBOX NAVBAR AND CENTERING */
 .navbar{
   display: flex;
   justify-content: space-between;
+  align-content: center;
+  align-items: center;
   max-width: 1000px;
-  margin: 10px auto;
+  max-height: 50px;
+  margin: 0 auto;
 }
 
 /* FLEXBOX  - ROWs */
-
 .row{
   max-width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
+
+/* CARD FLEXBOX */
+.card-description{
+  display: flex;
+  flex-direction: column;
+}
+/* --------------------------------------------- END FLEXBOX ---------------------------------------------*/
+
+/*  NAVBAR STYLE */
+.navbar>div{
+  min-width: 200px;
+}
+.navbar{
+  color: white;
+}
+.navbar-category>a, .account-management>a{
+  padding-right: 10px;
+}
+
+/* LOGO - NAVBAR*/
+.boolean-logo{
+  flex-shrink: 0;
+}
+.navbar figure{
+  max-width: 200px;
+}
+.logo{
+  max-width: 100%;
+}
+
+
+/* ACCOUNT FAV-ICON AND SHOPPING BAG */
+
+.account-management img{
+  width: 20px;
+}
+
 
 /* COLUMNS */
 .col{
@@ -89,11 +134,7 @@ main{
 }
 
 
-/* CARD FLEXBOX */
-.card-description{
-  display: flex;
-  flex-direction: column;
-}
+
 
 /* CARD  AND DESCRIPTION PROPERTIES */
 .card{
