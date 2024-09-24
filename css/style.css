@@ -31,6 +31,12 @@ header{
   padding: 10px 0;
 }
 
+footer{
+  color: white;
+  background-color: #000000;
+  padding: 20px 0;
+}
+
 /* CONTAINER CENTERING */
 .container{
   width: 1000px;
@@ -45,7 +51,6 @@ header{
   align-content: center;
   align-items: center;
   max-width: 1000px;
-  max-height: 50px;
   margin: 0 auto;
 }
 
@@ -61,6 +66,16 @@ header{
 .card-description{
   display: flex;
   flex-direction: column;
+}
+
+.footer-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 /* --------------------------------------------- END FLEXBOX ---------------------------------------------*/
 
@@ -135,9 +150,6 @@ header{
   background-color: red;
 }
 
-
-
-
 /* CARD  AND DESCRIPTION PROPERTIES */
 .card{
   position: relative;
@@ -158,10 +170,19 @@ header{
   text-decoration: line-through;
 }
 
-/* DEBUG */
-.debug .navbar, .debug.page-footer{
-  width: 100%;
-  min-height: 100px;
-  background-color: aqua;
-  border: 1px solid black;
+/* FOOTER SECTION */
+.company{
+  font-weight: 600;
+}
+.left-footer>a, .socials>a{
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.social-invite, .company{
+  display: block;
+  margin-bottom: 20px;
+}
+.socials img{
+  max-width: 20px;
 }
